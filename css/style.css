@@ -1,0 +1,54 @@
+/* utility classes */
+.p-r{
+ padding-right: 10px
+}
+/* end utility classes */
+.navbar {
+  height: 50px
+}
+
+.navbar li {
+  display: inline-block
+}
+
+.ln-hgh li {
+  line-height: 50px;
+  font-size: 11px
+}
+
+.logo {
+  height: 30px;
+  line-height: 50px
+}
+
+.middle .fa {
+  font-size: 13px
+}
+
+.btn {
+  border: 1px solid #99B5FA
+}
+
+.btn span {
+  color: #99B5FA
+}
+
+.btn:hover {
+  background: #006AFF;
+  color: #fff;
+  border: 1px solid #006AFF;
+}
+
+.btn span:hover {
+  color: #fff
+}
+
+.bg-jumbotron {
+  height: 500px;
+  background: url("../img/bg-home.jpg");
+  background-size: cover;
+}
+
+.jumbotron-form {
+  border: 1px solid black
+}
