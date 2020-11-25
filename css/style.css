@@ -46,44 +46,48 @@
 .bg-jumbotron {
   background: url("../img/bg-home.jpg");
   background-size: cover;
+  padding: 0 10px
 }
 
 .jumbotron-form {
   background: #fff;
-  margin: 70px 0;
-  border-radius: 5px
+  border-radius: 5px;
+  margin-bottom: 40px
 }
 
-.main-txt {
-  margin: 60px 0
+.jumbotron-form h3:nth-child(2) {
+  color: #286EF6
 }
 
 .main-txt p {
-  font-size: 23px
+  font-size: 17px
 }
+
+h3 {
+  font-size: 20px
+}
+
 h1 {
   color: #fff;
-  font-size: 64px
+  font-size: 30px
 }
 
 .bg-jumbotron p {
-  color:#fff
+  color: #B3C5FA
 }
 
-form {
-  width: 450px;
+form, .cya-btn, .suwg-btn {
+  width: 100%;
   margin: 0 auto
 }
 
 .cya-btn {
-  width: 450px;
   background: #006AFF;
   color: #fff;
   border: 1px solid #006AFF
 }
 
 .suwg-btn {
-  width: 450px;
   color: #006AFF;
   border: 1px solid #006AFF
 }
@@ -100,10 +104,33 @@ form {
   background: none
 }
 
-.form-btn {
-  /* margin: 10px 0 */
-}
-
 .scnd-form-btn {
   margin: 10px 0
+}
+
+.form-control {
+  box-shadow: none;
+  height: 45px
+}
+
+
+/* media query */
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 64px
+  }
+
+  .main-txt p {
+    font-size: 23px
+  }
+
+  .main-txt {
+    margin: 60px 0
+  }
+
+  .jumbotron-form {
+    margin: 70px 0;
+    padding-top: 20px;
+    padding-bottom: 30px
+  }
 }
