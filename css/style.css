@@ -25,30 +25,85 @@
   font-size: 13px
 }
 
-.btn {
+.ep-btn {
   border: 1px solid #99B5FA
 }
 
-.btn span {
+.ep-btn span {
   color: #99B5FA
 }
 
-.btn:hover {
+.ep-btn:hover {
   background: #006AFF;
   color: #fff;
   border: 1px solid #006AFF;
 }
 
-.btn span:hover {
+.ep-btn span:hover {
   color: #fff
 }
 
 .bg-jumbotron {
-  height: 500px;
   background: url("../img/bg-home.jpg");
   background-size: cover;
 }
 
 .jumbotron-form {
-  border: 1px solid black
+  background: #fff;
+  margin: 70px 0;
+  border-radius: 5px
+}
+
+.main-txt {
+  margin: 60px 0
+}
+
+.main-txt p {
+  font-size: 23px
+}
+h1 {
+  color: #fff;
+  font-size: 64px
+}
+
+.bg-jumbotron p {
+  color:#fff
+}
+
+form {
+  width: 450px;
+  margin: 0 auto
+}
+
+.cya-btn {
+  width: 450px;
+  background: #006AFF;
+  color: #fff;
+  border: 1px solid #006AFF
+}
+
+.suwg-btn {
+  width: 450px;
+  color: #006AFF;
+  border: 1px solid #006AFF
+}
+
+.cya-btn:hover {
+  background: blue;
+  color: #fff;
+  border: 1px solid blue
+}
+
+.suwg-btn:hover {
+  color: #000;
+  border: 1px solid #000;
+  background: none
+}
+
+.form-btn {
+  /* margin: 10px 0 */
+}
+
+.scnd-form-btn {
+  margin: 10px 0
 }
