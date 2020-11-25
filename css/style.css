@@ -3,6 +3,7 @@
  padding-right: 10px
 }
 /* end utility classes */
+/* navbar */
 .navbar {
   height: 50px
 }
@@ -24,7 +25,9 @@
 .middle .fa {
   font-size: 13px
 }
+/* end navbar */
 
+/* navbar button */
 .ep-btn {
   border: 1px solid #99B5FA
 }
@@ -42,7 +45,9 @@
 .ep-btn span:hover {
   color: #fff
 }
+/* end navbar button */
 
+/* jumbotron */
 .bg-jumbotron {
   background: url("../img/bg-home.jpg");
   background-size: cover;
@@ -112,7 +117,7 @@ form, .cya-btn, .suwg-btn {
   box-shadow: none;
   height: 45px
 }
-
+/* end jumbotron */
 
 /* media query */
 @media screen and (min-width: 768px) {
