@@ -144,7 +144,7 @@ form, .cya-btn, .suwg-btn {
 
 .img-logos img {
   height: 40px;
-  max-width: 200px
+  /* max-width: 200px */
 }
 
 .img-txt {
@@ -168,8 +168,8 @@ form, .cya-btn, .suwg-btn {
   margin-bottom: 60px
 }
 
-.nstd-txt h3 {
-  font-size: 40px;
+h3 {
+  font-size: 30px;
   margin-top: 70px;
   margin-bottom: 15px;
   color: #081D4B
@@ -180,7 +180,7 @@ form, .cya-btn, .suwg-btn {
   color: #616D88
 }
 
-.variable span, .four-boxes span {
+.variable span, .four-boxes span, .features span {
   font-size: 18px
 }
 
@@ -214,12 +214,14 @@ form, .cya-btn, .suwg-btn {
 
 /* photo-slide */
 .bg-photo-slide {
-  background: #F3F5F9
+  background: #F3F5F9;
+  padding-bottom: 20px
 }
 
 .photo {
-  margin-top: 60px
+  margin-top: 20px
 }
+
 .photo-slide h3 {
   font-size: 40px;
   margin-top: 70px;
@@ -233,13 +235,14 @@ form, .cya-btn, .suwg-btn {
 }
 
 .photo img {
-  height: 200px
+  height: 150px
 }
 
 .photo .fa {
   font-size: 60px;
   font-weight: bold;
-  margin: 10px
+  margin: 0 10px;
+  vertical-align: middle
 }
 
 .ep-hidden {
@@ -247,10 +250,67 @@ form, .cya-btn, .suwg-btn {
 }
 /* end photo-slide */
 
+/* features */
+.features img {
+  display: block
+}
+
+.features span {
+  font-weight: bold;
+  color: #1D2F59
+}
+
+.features img {
+  margin: 10px 0
+}
+
+.features p {
+  font-size: 18px;
+  color: #616D88
+}
+
+.features a {
+  color: #3C7DF6
+}
+
+.separator {
+  margin-bottom: 15px
+}
+/* end features */
+
+/* service */
+/* end service */
+
+/* rockerbox */
+.rockerbox img {
+  width: 250px
+}
+
+.rockerbox .fa {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0 10px;
+  vertical-align: middle
+}
+
+.photo-slide h3 {
+  font-size: 40px;
+  margin-top: 70px;
+  margin-bottom: 15px;
+  color: #081D4B
+}
+/* end rockerbox */
+
 /* media query */
 @media screen and (min-width: 768px) {
   h1 {
     font-size: 64px
+  }
+
+  h3 {
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 35px;
   }
 
   .main-txt p {
@@ -285,5 +345,13 @@ form, .cya-btn, .suwg-btn {
 
   .photo img {
     height: 400px
+  }
+
+  .photo {
+    margin-top: 60px
+  }
+
+  .rockerbox img {
+    width: 580px
   }
 }
