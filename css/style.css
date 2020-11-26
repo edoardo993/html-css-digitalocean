@@ -83,7 +83,9 @@
 }
 
 h3 {
-  font-size: 20px
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #081D4B
 }
 
 h1 {
@@ -168,13 +170,6 @@ form, .cya-btn, .suwg-btn {
   margin-bottom: 60px
 }
 
-h3 {
-  font-size: 30px;
-  margin-top: 70px;
-  margin-bottom: 15px;
-  color: #081D4B
-}
-
 .nstd-txt p {
   font-size: 18px;
   color: #616D88
@@ -224,7 +219,7 @@ h3 {
 
 .photo-slide h3 {
   font-size: 40px;
-  margin-top: 70px;
+  /* margin-top: 70px; */
   margin-bottom: 15px;
   color: #081D4B
 }
@@ -265,12 +260,13 @@ h3 {
 }
 
 .features p {
-  font-size: 18px;
+  font-size: 15px;
   color: #616D88
 }
 
 .features a {
-  color: #3C7DF6
+  color: #3C7DF6;
+  font-size: 15px
 }
 
 .separator {
@@ -300,6 +296,25 @@ h3 {
   color: #081D4B
 }
 /* end rockerbox */
+
+/* get started now */
+.g-s-n {
+  background: #0933A3;
+  padding-bottom: 20px
+}
+
+.g-s-n h3 {
+  color: #fff
+}
+
+.g-s-n span {
+  color: #3176F6
+}
+
+.g-s-n button {
+  border: 1px solid #fff
+}
+/* end get started now */
 
 /* media query */
 @media screen and (min-width: 768px) {
@@ -353,5 +368,9 @@ h3 {
 
   .rockerbox img {
     width: 580px
+  }
+
+  .g-s-n {
+    padding-bottom: 70px
   }
 }
