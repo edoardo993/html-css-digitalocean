@@ -289,10 +289,22 @@ form, .cya-btn, .suwg-btn {
 
 ul {
   list-style-type: none;
+}
 
+.lista li {
+  font-size: 9px
 }
 .lista, .service h3 {
   color: #fff
+}
+
+.lista a {
+  color: #5FD2D0
+}
+
+.lista a:hover {
+  color: #fff;
+  text-decoration: none
 }
 /* end service */
 
