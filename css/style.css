@@ -220,6 +220,10 @@ form, .cya-btn, .suwg-btn {
   display: block
 }
 
+/* .four-boxes div {
+  min-height: 120px
+} */
+
 .four-boxes img {
   margin: 10px 0
 }
@@ -356,6 +360,10 @@ ul {
 
 .rockerbox .fa:hover {
   color: #000
+}
+
+.circle {
+  margin-top: 15px
 }
 /* end rockerbox */
 
