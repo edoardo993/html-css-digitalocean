@@ -1,6 +1,6 @@
 /* utility classes */
 .p-r{
- padding-right: 10px
+ /* padding-right: 10px */
 }
 
 .p-b {
@@ -18,11 +18,15 @@
 .p-l {
   margin-left: 15px
 }
+
+.ep-hidden {
+  display: none
+}
 /* end utility classes */
 
 /* navbar */
 .navbar {
-  height: 50px
+  margin-bottom: 0
 }
 
 .navbar li {
@@ -30,13 +34,17 @@
 }
 
 .ln-hgh li {
-  line-height: 50px;
-  font-size: 11px
+  line-height: 55px;
+  font-size: 13px
+}
+
+.cntnr-logo {
+  height: 10px;
+  line-height: 50px
 }
 
 .logo {
-  height: 30px;
-  line-height: 50px
+  height: 27px
 }
 
 .middle .fa {
@@ -45,12 +53,19 @@
 /* end navbar */
 
 /* navbar button */
+.hamburger-menu {
+  line-height: 65px;
+  font-size: 30px;
+  color: #4D8BF7;
+  padding-right: 15px
+}
+
 .ep-btn {
-  border: 1px solid #99B5FA
+  border: 1px solid #5490F7
 }
 
 .ep-btn span {
-  color: #99B5FA
+  color: #5490F7
 }
 
 .ep-btn:hover {
@@ -149,8 +164,7 @@ form, .cya-btn, .suwg-btn {
 }
 
 .img-logos img {
-  height: 40px;
-  /* max-width: 200px */
+  height: 40px
 }
 
 .img-txt {
@@ -183,15 +197,6 @@ form, .cya-btn, .suwg-btn {
   font-size: 18px
 }
 
-.four-boxes span {
-  font-weight: bold;
-  color: #1D2F59
-}
-
-.four-boxes img {
-  display: block
-}
-
 .variable div {
   border-left: 2px solid #ccc;
   padding-left: 10px;
@@ -204,6 +209,15 @@ form, .cya-btn, .suwg-btn {
 
 .variable {
   margin-bottom: 50px
+}
+
+.four-boxes span {
+  font-weight: bold;
+  color: #1D2F59
+}
+
+.four-boxes img {
+  display: block
 }
 
 .four-boxes img {
@@ -236,6 +250,12 @@ form, .cya-btn, .suwg-btn {
   height: 150px
 }
 
+.bg-photo-slide span {
+  font-size: 20px;
+  color: #3E4D71;
+  font-weight: bold
+}
+
 .photo .fa {
   font-size: 60px;
   font-weight: bold;
@@ -243,23 +263,27 @@ form, .cya-btn, .suwg-btn {
   vertical-align: middle
 }
 
-.ep-hidden {
-  display: none
+.circle .fa:first-child,
+.circle .fa:nth-child(2),
+.circle .fa:nth-child(3),
+.photo .fa {
+  color: #266DF6
+}
+
+.photo .fa:hover {
+  color: #000
 }
 /* end photo-slide */
 
 /* features */
 .features img {
-  display: block
+  display: block;
+  margin: 10px 0
 }
 
 .features span {
   font-weight: bold;
   color: #1D2F59
-}
-
-.features img {
-  margin: 10px 0
 }
 
 .features p {
@@ -319,7 +343,8 @@ ul {
   font-size: 60px;
   font-weight: bold;
   margin: 0 10px;
-  vertical-align: middle
+  vertical-align: middle;
+  color: #266DF6
 }
 
 .photo-slide h3 {
@@ -328,16 +353,16 @@ ul {
   margin-bottom: 15px;
   color: #081D4B
 }
+
+.rockerbox .fa:hover {
+  color: #000
+}
 /* end rockerbox */
 
 /* get started now */
 .g-s-n {
   background: linear-gradient(#1243B3, #022595);
   padding-bottom: 20px
-}
-
-.g-s-n h3 {
-  color: #fff
 }
 
 .g-s-n span {
@@ -368,7 +393,7 @@ ul {
   font-size: 30px
 }
 
-.bg-clr-bl span .fa:hover {
+.bg-clr-bl span .fa:hover, .g-s-n h3, .bg-clr-bl h4, .bg-clr-bl a:hover {
   color: #fff
 }
 
@@ -376,17 +401,9 @@ ul {
   padding-right: 10px
 }
 
-.bg-clr-bl h4 {
-  color: #fff
-}
-
 .bg-clr-bl a {
   color: #A6ADBB;
   text-decoration: none
-}
-
-.bg-clr-bl a:hover {
-  color: #fff
 }
 /* end footer */
 
@@ -401,6 +418,10 @@ ul {
     font-size: 40px;
     margin-top: 70px;
     margin-bottom: 35px;
+  }
+
+  .navbar {
+    margin-bottom: 0
   }
 
   .main-txt p {
@@ -434,31 +455,20 @@ ul {
   }
 
   .rockerbox img {
-    width: 580px
-  }
-
-  .g-s-n {
-    padding-bottom: 70px
+    height: 400px;
+    width: 700px
   }
 
   .lista li {
     font-size: 15px
   }
 
-  .features {
-    padding-bottom: 70px
-  }
-
-  .bg-photo-slide {
+  .features, .g-s-n, .bg-photo-slide, .service {
     padding-bottom: 70px
   }
 
   .p-r {
-    margin-right: 40px
-  }
-
-  .service {
-    padding-bottom: 70px
+    margin-right: 20px
   }
 
   .bg-clr-bl {
