@@ -156,6 +156,16 @@ form, .cya-btn, .suwg-btn {
 .scnd-img-txt {
   margin: 40px 0
 }
+
+form .scnd-form-btn button:before {
+  content: "";
+  display: block;
+  background: url("../img/google-logo.png");
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  position: absolute;
+}
 /* end jumbotron */
 
 /* logos row */
@@ -219,10 +229,6 @@ form, .cya-btn, .suwg-btn {
 .four-boxes img {
   display: block
 }
-
-/* .four-boxes div {
-  min-height: 120px
-} */
 
 .four-boxes img {
   margin: 10px 0
