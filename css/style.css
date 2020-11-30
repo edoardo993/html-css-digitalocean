@@ -345,16 +345,8 @@ ul {
 /* end service */
 
 /* rockerbox */
-.rockerbox img {
-  width: 250px
-}
-
-.rockerbox .fa {
-  font-size: 60px;
-  font-weight: bold;
-  margin: 0 10px;
-  vertical-align: middle;
-  color: #266DF6
+.circle {
+  margin-top: 15px
 }
 
 .photo-slide h3 {
@@ -364,12 +356,14 @@ ul {
   color: #081D4B
 }
 
-.rockerbox .fa:hover {
-  color: #000
+.slider-box {
+  position: relative;
+  height: 100%;
+  padding-bottom: 60px
 }
 
-.circle {
-  margin-top: 15px
+.slider-inner img {
+  width: 100%
 }
 /* end rockerbox */
 
@@ -468,9 +462,37 @@ ul {
     margin-top: 60px
   }
 
-  .rockerbox img {
-    height: 400px;
-    width: 700px
+  .slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+  }
+
+  .slider-inner {
+    width: 80%;
+    margin: 0 auto
+  }
+
+  .slider-inner img {
+    width: 100%
+  }
+
+  .slider-arrow-left {
+    left: 0;
+  }
+
+  .slider-arrow-right {
+    right: 0;
+  }
+
+  .slider-arrow-left:hover {
+    color: #000;
+    opacity: 1
+  }
+
+  .disabled {
+    opacity: .5;
   }
 
   .lista li {
